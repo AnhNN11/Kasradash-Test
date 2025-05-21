@@ -22,7 +22,7 @@ interface ReportedPost {
 
 export function ReportedPosts() {
   const router = useRouter();
-  const [posts, setPosts] = useState<ReportedPost[]>([
+  const [posts] = useState<ReportedPost[]>([
     {
       id: "1",
       title: "Understanding Modern Web Development Frameworks",
